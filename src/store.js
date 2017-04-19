@@ -10,7 +10,7 @@ export default function configureStore(initialState = {}) {
   const store = createStore(
     reducers,
     initialState,
-    applyMiddleware([thunk, babylonJSMiddleware]),
+    applyMiddleware(thunk, babylonJSMiddleware),
   );
   return store;
 }
