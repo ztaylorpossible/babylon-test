@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Scene } from 'react-babylonjs';
 import Babylon from 'babylonjs';
 
-import Tutorial1 from './Tutorial1';
+import Tutorial2 from './Tutorial2';
 
 export default class App extends Component {
 
   render() {
     return (
-      <Tutorial1 />
+      <Tutorial2 />
     );
   }
 }
